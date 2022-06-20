@@ -60,6 +60,9 @@ export default class Slide {
     this.onEnd = this.onEnd.bind(this);
   }
 
+// slide config
+
+
   init() {
     this.bindEvents();
     this.addSlideEvents();
